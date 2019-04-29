@@ -1,0 +1,25 @@
+{
+  "name": "iam",
+  "version": "1.0.0",
+  "description": "Ambient Music International",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "requires": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambientmusic/iam.git"
+  },
+  "author": "paul sheridan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambientmusic/iam/issues"
+  },
+  "homepage": "https://github.com/ambientmusic/iam#readme"
+}
