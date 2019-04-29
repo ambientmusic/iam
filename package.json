@@ -12,7 +12,9 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "request": "^2.88.0",
-    "result": "^2.0.9"
+    "result": "^2.0.9",
+    "cookie-parser": "^1.4.4",
+    "querystring": "^0.2.0"
   },
   "repository": {
     "type": "git",
