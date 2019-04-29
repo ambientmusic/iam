@@ -1,5 +1,5 @@
 {
-  "name": "miami",
+  "name": "iam",
   "version": "1.0.0",
   "description": "Ambient Music International",
   "main": "app.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ambientmusic/miami.git"
+    "url": "git+https://github.com/ambientmusic/iam.git"
   },
   "author": "paul sheridan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ambientmusic/miami/issues"
+    "url": "https://github.com/ambientmusic/iam/issues"
   },
-  "homepage": "https://github.com/ambientmusic/miami#readme"
+  "homepage": "https://github.com/ambientmusic/iam#readme"
 }
