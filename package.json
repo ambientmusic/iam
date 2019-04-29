@@ -9,8 +9,10 @@
   },
   "requires": true,
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "result": "^2.0.9"
   },
   "repository": {
     "type": "git",
