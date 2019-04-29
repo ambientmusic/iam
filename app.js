@@ -144,5 +144,8 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-console.log('Listening on 8888');
-app.listen(8888);
+var server = app.listen(5000, function () {
+    console.log('Node server is running..');
+});
+//console.log('Listening on 8888');
+//app.listen(8888);
