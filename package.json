@@ -458,7 +458,7 @@
   "homepage": "https://github.com/ambientmusic/iam#readme",
   "keywords": [
     "node",
-    "heroku"
+    "heroku",
     "http",
     "simple",
     "util",
