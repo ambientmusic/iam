@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = 'fdbfd92a4bb54e3aa81e01cd35b7ec05'; // Your client id
 var client_secret = '5bff0ac8456e4f22bf526c2dc5bd8170'; // Your secret
-var redirect_uri = 'http://localhost/ambientmusic'; // Your redirect uri
+var redirect_uri = 'https://itgis.org/ambientmusic'; // Your redirect uri
 
 
 /**
