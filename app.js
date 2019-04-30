@@ -144,8 +144,15 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-var server = app.listen(5000, function () {
-    console.log('Node server is running..');
+//var server = app.listen(5000, function () {
+//    console.log('Node server is running..');
+//});
+
+var port = process.env.PORT || 3000;
+
+app.listen(port, function () {
+  console.log('Example app listening on port ' + port + '!');
 });
+
 //console.log('Listening on 8888');
 //app.listen(8888);
