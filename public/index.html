@@ -1,10 +1,13 @@
 <!doctype html>
 <html>
   <head>
-    <title>Authorization with Spotify</title>
+    <title>Melody | Harmony | Rhythm</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <style type="text/css">
 
-<style type="text/css">
+      *:focus {
+       outline: none;
+      }
       #login, #loggedin, {
         display: none;
       }
@@ -14,34 +17,21 @@
         white-space: nowrap;
         width: 500px;
       }
-      #myModal .modal-content
-      {
-        height:400px;
-        overflow:auto;
-      }
+
     </style>
   </head>
 
-  <body style="background-color:#E1E1A8;"><br>
+  <body style="background-color:white;"><br>
     <div class="container">
 
-    <div width="50%"; style="float:right;padding-top:57px;"><img src="img/13.jpg" width="130" height="131" ></img><img src="img/2.jpg" width="130" height="131" ></img><img src="img/3.jpg" width="130" height="131" ></img><img src="img/4.jpg" width="130" height="131" ></img><br><img src="img/5.jpg" width="130" height="131" ></img><img src="img/6.jpg" width="130" height="131" ></img><img src="img/7.jpg" width="130" height="131" ></img><img src="img/8.jpg" width="130" height="131" ><br></img><img src="img/9.jpg" width="130" height="131" ></img><img src="img/10.jpg" width="130" height="131" ></img><img src="img/11.jpg" width="130" height="131" ></img><img src="img/12.jpg" width="130" height="131" ><br></img><img src="img/1.jpg" width="130" height="131" ></img><img src="img/14.jpg" width="130" height="131" ></img><img src="img/15.jpg" width="130" height="131" ></img><img src="img/16.jpg" width="130" height="131" ></img></div>
+    <div width="50%"; style="float:right;padding-top:57px;"><img src="13.jpg" width="130" height="131" ></img><img src="2.jpg" width="130" height="131" ></img><img src="3.jpg" width="130" height="131" ></img><img src="4.jpg" width="130" height="131" ></img><br><img src="5.jpg" width="130" height="131" ></img><img src="6.jpg" width="130" height="131" ></img><img src="7.jpg" width="130" height="131" ></img><img src="8.jpg" width="130" height="131" ><br></img><img src="9.jpg" width="130" height="131" ></img><img src="10.jpg" width="130" height="131" ></img><img src="11.jpg" width="130" height="131" ></img><img src="12.jpg" width="130" height="131" ><br></img><img src="1.jpg" width="130" height="131" ></img><img src="14.jpg" width="130" height="131" ></img><img src="15.jpg" width="130" height="131" ></img><img src="16.jpg" width="130" height="131" ></img></div>
 
       <div id="login">
-        <h1 style="margin-top:-4px">Ambient Music International</h1>
-      <textarea  style="resize: none;border:0;background:#E1E1A8;text-align:justify;height:224px; width:530px;">For all the good that technology has brought into our lives, one of the downsides is the inability to make meaningful connections with the music made available to the community as a whole. Probably the result of inadequate information exacerbated by market-driven forces for younger tastes. AMI offers a way of lending an ear to some of the best songs on offer by world-renowned musicians. This free website links up with Spotify to conveniently present an option to explore carefully selected international music. Our growing array of synchronised, multi-language lyrics and related artist information might also interest you. Why not seize the opportunity to discover new clientele, perhaps even successful grown ups to join you for a few drinks during quieter times, say, early evening or when our learners are pre-loading or have dispersed to all corners of the country?</textarea><a href="/login" class="btn btn-primary" style="margin-left:350px;margin-top:-4px;">Connect AMI to Spotify</a></div>
-<div id="advice">
-        <h1 style="text-indent:0px;font-size:26px;margin-top:-6px;" >AMI Technical Advice</h1>
-      <textarea  style="resize: none;border:0;background:#E1E1A8;text-align:justify;height:264px; width:530px;">First time users will be invited to grant specific access permissions which can be removed at any time (see the privacy policy and terms of service below). Login if prompted, select a playlist and follow the instructions to connect to Spotify via AMI.&#13;&#10;Spotify is a pretty large program. Like any other program this size, when opened, a lot of hard drive traffic will take place when reading program data into memory. It helps to mitigate against space problems if Spotify isn't competing with other resources on start up (note Chrome itself is comparatively heavy on resource utilisation). &#13;&#10;Separately, temporary glitches may occur at Spotify and there's a reset button below if for any other reason AMI fails to run as expected. As a last resort document the issue and email the details to support@itgis.org. Oh, don't forget to return to AMI when Spotify has loaded.&#13;&#10;Note this website conforms to standard Spotify developer terms of service.</textarea>
-<br><a class="btn btn-primary" href="https://developer.spotify.com/terms/"  target="_blank"> Terms of Service</a> <a class="btn btn-primary" href="#myModal" style="margin-left:68px;" data-toggle="modal"> Privacy Policy</a><a href="/login" class="btn btn-primary" style="margin-left:68px;">Application Reset</a></div>
-    <div id="loggedin">
-        <div id="user-profile">
-        </div>
-        <div id="oauth">
-        </div>
-        <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>
-      </div>
-    </div>
+        <h1 style="margin-top:15px">Ambient Music International</h1>
+      <textarea  autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" style="resize: none;border:0;background:white;text-align:justify;height:585px; width:590px;">For all the good that technology has brought into our lives, one of the downsides is the inability to make meaningful connections with the music made available to the community as a whole. &#013;&#010;&#013;&#010;The difficulty in selecting good songs from a multitude of, at best, sketchily filtered tracks exacerbated by market-driven forces limited by youthful tastes, does little to resolve this problem.&#013;&#010;&#013;&#010;AMI offers quick access to pre-selected playlists made up of the best songs on offer by world-renowned (and some not so well known) musicians.&#013;&#010;&#013;&#010;This website is free to Spotify premium users and conveniently presents an option for you (and your clients) to experience a wide range of tasteful international music. Our growing array of synchronised, multi-language lyrics and related artist information might also interest you. &#013;&#010;&#013;&#010;Why not seize the opportunity to encourage new customers (perhaps even successful grown-ups) to join you for a few drinks during quieter times, say, early evening when others are pre-loading or have dispersed from their seats of learning to all corners of the country?  &#013;&#010;&#013;&#010;If you choose to take a closer look, we will ask for permission to access some of your Spotify data. This data is limited to Your Public Playlists, The Type of Device You're Listening On and The Track You're Playing. However, we only use the latter and permission can easily be reversed by you at any time. &#013;&#010;&#013;&#010;We aim to help local businesses break out of the status quo and improve their customer service; at least give us a try.</textarea><a href="/login" class="btn btn-primary" style="margin-left:420px;margin-top:-165px;">Connect AMI to Spotify</a>
+</div>
+</div>
+
 
     <script id="user-profile-template" type="text/x-handlebars-template">
       <h1>Logged in as {{display_name}}</h1>
@@ -72,14 +62,16 @@
     </script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
-<!--<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script>
       (function() {
+
         /**
          * Obtains parameters from the hash of the URL
          * @return Object
          */
         function getHashParams() {
+
           var hashParams = {};
           var e, r = /([^&;=]+)=?([^&;]*)/g,
               q = window.location.hash.substring(1);
@@ -88,16 +80,23 @@
           }
           return hashParams;
         }
+
         var userProfileSource = document.getElementById('user-profile-template').innerHTML,
             userProfileTemplate = Handlebars.compile(userProfileSource),
             userProfilePlaceholder = document.getElementById('user-profile');
+
         var oauthSource = document.getElementById('oauth-template').innerHTML,
             oauthTemplate = Handlebars.compile(oauthSource),
             oauthPlaceholder = document.getElementById('oauth');
+
         var params = getHashParams();
+
+
         var access_token = params.access_token,
+
             refresh_token = params.refresh_token,
             error = params.error;
+
         if (error) {
           alert('There was an error during the authentication');
         } else {
@@ -106,7 +105,9 @@
             oauthPlaceholder.innerHTML = oauthTemplate({
               access_token: access_token,
               refresh_token: refresh_token
+
             });
+
             $.ajax({
                 url: 'https://api.spotify.com/v1/me',
                 headers: {
@@ -114,6 +115,7 @@
                 },
                 success: function(response) {
                   userProfilePlaceholder.innerHTML = userProfileTemplate(response);
+
                   $('#login').hide();
                   $('#loggedin').show();
                 }
@@ -123,6 +125,7 @@
               $('#login').show();
               $('#loggedin').hide();
           }
+
           document.getElementById('obtain-new-token').addEventListener('click', function() {
             $.ajax({
               url: '/refresh_token',
@@ -134,14 +137,20 @@
               oauthPlaceholder.innerHTML = oauthTemplate({
                 access_token: access_token,
                 refresh_token: refresh_token
+
               });
             });
           }, false);
         }
       })();
+
   </script>
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
   </body>
 </html>
-
 
