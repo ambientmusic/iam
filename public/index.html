@@ -34,7 +34,7 @@
 </div>
  <script>
  function screenSizeMessage()
- {if (screen.width == 1366) {
+ {if (screen.width != 1366) {
  if (confirm("The screen size of your device (" + screen.width + ") is not fully comatible with this version of AMI. For the best results use screen size = 1366. Later versions of AMI will have greater screen resolution flexibility.\r\n\r\nPress OK if you would like to continue anyway. Otherwise click cancel.")) {
   location="/login";
 } else {
