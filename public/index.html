@@ -37,7 +37,7 @@ return false;
   <body style="background-color:white;" onload="screenSizeMessage()"><br>
     <div class="container">
 
-    <div width="50%"; style="float:right;padding-top:55px;padding-left:10px;"><a href="/login"><img src="img/13.jpg" width="132" height="132" ></img><img src="img/2.jpg" width="132" height="132" ></img><img src="img/3.jpg" width="132" height="132" ></img><img src="img/4.jpg" width="132" height="132" ></img><br><img src="img/5.jpg" width="132" height="132" ></img><img src="img/6.jpg" width="132" height="132" ></img><img src="img/7.jpg" width="132" height="132" ></img><img src="img/8.jpg" width="132" height="132" ><br></img><img src="img/9.jpg" width="132" height="132" ></img><img src="img/10.jpg" width="132" height="132" ></img><img src="img/11.jpg" width="132" height="132" ></img><img src="img/12.jpg" width="132" height="132" ><br></img><img src="img/1.jpg" width="132" height="132" ></img><img src="img/14.jpg" width="132" height="132" ></img><img src="img/15.jpg" width="132" height="132" ></img><img src="img/16.jpg" width="132" height="132" ></a></div>
+    <div width="50%"; style="float:right;padding-top:55px;padding-left:10px;"><img src="img/13.jpg" width="132" height="132" ></img><img src="img/2.jpg" width="132" height="132" ></img><img src="img/3.jpg" width="132" height="132" ></img><img src="img/4.jpg" width="132" height="132" ></img><br><img src="img/5.jpg" width="132" height="132" ></img><img src="img/6.jpg" width="132" height="132" ></img><img src="img/7.jpg" width="132" height="132" ></img><img src="img/8.jpg" width="132" height="132" ><br></img><img src="img/9.jpg" width="132" height="132" ></img><img src="img/10.jpg" width="132" height="132" ></img><img src="img/11.jpg" width="132" height="132" ></img><img src="img/12.jpg" width="132" height="132" ><br></img><img src="img/1.jpg" width="132" height="132" ></img><img src="img/14.jpg" width="132" height="132" ></img><img src="img/15.jpg" width="132" height="132" ></img><img src="img/16.jpg" width="132" height="132" ></div>
 
       <div id="login">
         <h2 style="margin-top:-10px;margin-bottom:-15px">Ambient Music International</h2><br>
@@ -46,9 +46,9 @@ return false;
 </div>
  <script>
  function screenSizeMessage()
- {if (screen.width != 1366 && screen.width != 1280 && screen.width != 1440)
+ {if (screen.width != 1366 && screen.width != 1280)
  {
- alert("Some screen sizes (current measurement is "+screen.width+") are not fully compatible with this version of AMI. For the best results use    \r\n                             width 1280 x height 800/768 or\r\n                             width 1366/1360 x height 768 or   \r\n                             width 1440 x height 900\r\nIt may be possible to reset your resolution, for example, if you're using Windows 10 --> desktop right click --> display settings --> resolution dropdown box --> select your desired size. Note later versions of AMI will have greater screen resolution flexibility.")
+ alert("Some screen sizes are not fully compatible with this version of AMI (for example your device returned "+screen.width+" x "+screen.height+"). For the best results use    \r\n                             width 1280 x height 800/768 or\r\n                             width 1366/1360 x height 768\r\nIt may be possible to reset your resolution, for example, if you're using Windows 10 --> desktop right click --> display settings --> resolution dropdown box --> select your desired size. Note later versions of AMI will have greater screen resolution flexibility.")
 }
 }
 </script>
